@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070C1DBD2A3A481700B1CD30 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C1DBC2A3A481700B1CD30 /* Theme.swift */; };
+		070C1DBF2A3A49A600B1CD30 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C1DBE2A3A49A600B1CD30 /* DailyScrum.swift */; };
+		070C1DC12A3A4CC300B1CD30 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C1DC02A3A4CC300B1CD30 /* CardView.swift */; };
+		070C1DC32A3A51AB00B1CD30 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C1DC22A3A51AB00B1CD30 /* TrailingIconLabelStyle.swift */; };
 		07A22DAD2A326AB2004E1332 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A22DAC2A326AB2004E1332 /* ScrumdingerApp.swift */; };
 		07A22DAF2A326AB2004E1332 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A22DAE2A326AB2004E1332 /* MeetingView.swift */; };
 		07A22DB12A326AB3004E1332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A22DB02A326AB3004E1332 /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070C1DBC2A3A481700B1CD30 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		070C1DBE2A3A49A600B1CD30 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		070C1DC02A3A4CC300B1CD30 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		070C1DC22A3A51AB00B1CD30 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		07A22DA92A326AB2004E1332 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A22DAC2A326AB2004E1332 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		07A22DAE2A326AB2004E1332 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -76,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070C1DBB2A3A47EE00B1CD30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				070C1DBC2A3A481700B1CD30 /* Theme.swift */,
+				070C1DBE2A3A49A600B1CD30 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		07A22DA02A326AB2004E1332 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +116,8 @@
 		07A22DAB2A326AB2004E1332 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				070C1DC02A3A4CC300B1CD30 /* CardView.swift */,
+				070C1DBB2A3A47EE00B1CD30 /* Models */,
 				07A22DAC2A326AB2004E1332 /* ScrumdingerApp.swift */,
 				07A22DAE2A326AB2004E1332 /* MeetingView.swift */,
 				07A22DB02A326AB3004E1332 /* Assets.xcassets */,
@@ -106,6 +125,7 @@
 				07A22DBA2A326AB3004E1332 /* Scrumdinger.entitlements */,
 				07A22DB72A326AB3004E1332 /* Scrumdinger.xcdatamodeld */,
 				07A22DB22A326AB3004E1332 /* Preview Content */,
+				070C1DC22A3A51AB00B1CD30 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -266,9 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070C1DC12A3A4CC300B1CD30 /* CardView.swift in Sources */,
 				07A22DB62A326AB3004E1332 /* Persistence.swift in Sources */,
 				07A22DAF2A326AB2004E1332 /* MeetingView.swift in Sources */,
+				070C1DC32A3A51AB00B1CD30 /* TrailingIconLabelStyle.swift in Sources */,
+				070C1DBD2A3A481700B1CD30 /* Theme.swift in Sources */,
 				07A22DAD2A326AB2004E1332 /* ScrumdingerApp.swift in Sources */,
+				070C1DBF2A3A49A600B1CD30 /* DailyScrum.swift in Sources */,
 				07A22DB92A326AB3004E1332 /* Scrumdinger.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,3 +1,10 @@
+//
+//  TrailingIconLabelStyle.swift
+//  Scrumdinger
+//
+//  Created by Agata Porwit on 6/14/23.
+//
+
 import SwiftUI
 
 
