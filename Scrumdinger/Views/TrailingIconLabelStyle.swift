@@ -12,12 +12,10 @@ struct TrailingIconLabelStyle: LabelStyle {
         HStack {
             configuration.title
             configuration.icon
-            
         }
     }
-
 }
 
 extension LabelStyle where Self == TrailingIconLabelStyle {
-    static var trailingIcon: Self { Self()}
+    static var trailingIcon: Self { Self() }
 }

@@ -4,12 +4,10 @@
 //
 //  Created by Agata Porwit on 6/14/23
 //
-
 import SwiftUI
 
 struct CardView: View {
     let scrum: DailyScrum
-    
     var body: some View {
         VStack(alignment: .leading) {
             Text(scrum.title)
@@ -32,11 +30,10 @@ struct CardView: View {
 }
 
 struct CardView_Previews: PreviewProvider {
-    static var scrum = DailyScrum.smapleData[0]
+    static var scrum = DailyScrum.sampleData[0]
     static var previews: some View {
         CardView(scrum: scrum)
-        .background(scrum.theme.mainColor)
-        .previewLayout(.fixed(width: 400, height: 60))
+            .background(scrum.theme.mainColor)
+            .previewLayout(.fixed(width: 400, height: 60))
     }
 }
-
