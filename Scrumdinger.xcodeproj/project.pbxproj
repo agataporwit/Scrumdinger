@@ -16,6 +16,9 @@
 		070D00032A422D86004D63CD /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D00022A422D86004D63CD /* ThemePicker.swift */; };
 		070DFFFD2A3A6E45004D63CD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DFFFC2A3A6E45004D63CD /* DetailView.swift */; };
 		070DFFFF2A3A6FE7004D63CD /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DFFFE2A3A6FE7004D63CD /* DetailEditView.swift */; };
+		070EE9202A609D8900355185 /* MeeitingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070EE91F2A609D8900355185 /* MeeitingFooterView.swift */; };
+		070EE9282A70A81400355185 /* ScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070EE9272A70A81400355185 /* ScrumSheet.swift */; };
+		070EE92A2A70ABA000355185 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070EE9292A70ABA000355185 /* History.swift */; };
 		07A22DAD2A326AB2004E1332 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A22DAC2A326AB2004E1332 /* ScrumdingerApp.swift */; };
 		07A22DAF2A326AB2004E1332 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A22DAE2A326AB2004E1332 /* MeetingView.swift */; };
 		07A22DB12A326AB3004E1332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A22DB02A326AB3004E1332 /* Assets.xcassets */; };
@@ -26,7 +29,6 @@
 		07A22DCE2A326AB4004E1332 /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A22DCD2A326AB4004E1332 /* ScrumdingerUITests.swift */; };
 		07A22DD02A326AB4004E1332 /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A22DCF2A326AB4004E1332 /* ScrumdingerUITestsLaunchTests.swift */; };
 		07F6B3BB2A423C4300D7E679 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F6B3BA2A423C4300D7E679 /* MeetingHeaderView.swift */; };
-		07F6B3BD2A423C5D00D7E679 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F6B3BC2A423C5D00D7E679 /* MeetingFooterView.swift */; };
 		07F6B3BF2A423D7500D7E679 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F6B3BE2A423D7500D7E679 /* ScrumTimer.swift */; };
 		07F6B3C12A423DAD00D7E679 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F6B3C02A423DAD00D7E679 /* ScrumProgressViewStyle.swift */; };
 		07F6B3C32A423DE400D7E679 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F6B3C22A423DE400D7E679 /* AVPlayer+Ding.swift */; };
@@ -59,6 +61,9 @@
 		070D00022A422D86004D63CD /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		070DFFFC2A3A6E45004D63CD /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		070DFFFE2A3A6FE7004D63CD /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		070EE91F2A609D8900355185 /* MeeitingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeeitingFooterView.swift; sourceTree = "<group>"; };
+		070EE9272A70A81400355185 /* ScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumSheet.swift; sourceTree = "<group>"; };
+		070EE9292A70ABA000355185 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		07A22DA92A326AB2004E1332 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A22DAC2A326AB2004E1332 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		07A22DAE2A326AB2004E1332 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -73,7 +78,6 @@
 		07A22DCD2A326AB4004E1332 /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		07A22DCF2A326AB4004E1332 /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		07F6B3BA2A423C4300D7E679 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
-		07F6B3BC2A423C5D00D7E679 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		07F6B3BE2A423D7500D7E679 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		07F6B3C02A423DAD00D7E679 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		07F6B3C22A423DE400D7E679 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 				070C1DBE2A3A49A600B1CD30 /* DailyScrum.swift */,
 				07F6B3BE2A423D7500D7E679 /* ScrumTimer.swift */,
 				07F6B3C22A423DE400D7E679 /* AVPlayer+Ding.swift */,
+				070EE9292A70ABA000355185 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -121,7 +126,6 @@
 				070C1DC02A3A4CC300B1CD30 /* CardView.swift */,
 				070DFFFE2A3A6FE7004D63CD /* DetailEditView.swift */,
 				070DFFFC2A3A6E45004D63CD /* DetailView.swift */,
-				07F6B3BC2A423C5D00D7E679 /* MeetingFooterView.swift */,
 				07F6B3BA2A423C4300D7E679 /* MeetingHeaderView.swift */,
 				07A22DAE2A326AB2004E1332 /* MeetingView.swift */,
 				070C1DC42A3A5CB300B1CD30 /* ScrumsView.swift */,
@@ -129,6 +133,8 @@
 				070D00002A422880004D63CD /* ThemeView.swift */,
 				070C1DC22A3A51AB00B1CD30 /* TrailingIconLabelStyle.swift */,
 				07F6B3C02A423DAD00D7E679 /* ScrumProgressViewStyle.swift */,
+				070EE91F2A609D8900355185 /* MeeitingFooterView.swift */,
+				070EE9272A70A81400355185 /* ScrumSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -257,7 +263,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = agataporwit;
 				TargetAttributes = {
 					07A22DA82A326AB2004E1332 = {
@@ -327,17 +333,19 @@
 				070C1DC12A3A4CC300B1CD30 /* CardView.swift in Sources */,
 				07F6B3C12A423DAD00D7E679 /* ScrumProgressViewStyle.swift in Sources */,
 				070C1DC52A3A5CB300B1CD30 /* ScrumsView.swift in Sources */,
-				07F6B3BD2A423C5D00D7E679 /* MeetingFooterView.swift in Sources */,
 				07A22DB62A326AB3004E1332 /* Persistence.swift in Sources */,
 				070DFFFD2A3A6E45004D63CD /* DetailView.swift in Sources */,
 				070D00012A422880004D63CD /* ThemeView.swift in Sources */,
 				07F6B3C32A423DE400D7E679 /* AVPlayer+Ding.swift in Sources */,
 				07F6B3BF2A423D7500D7E679 /* ScrumTimer.swift in Sources */,
+				070EE9282A70A81400355185 /* ScrumSheet.swift in Sources */,
 				07A22DAF2A326AB2004E1332 /* MeetingView.swift in Sources */,
 				070C1DC32A3A51AB00B1CD30 /* TrailingIconLabelStyle.swift in Sources */,
 				07F6B3BB2A423C4300D7E679 /* MeetingHeaderView.swift in Sources */,
 				070C1DBD2A3A481700B1CD30 /* Theme.swift in Sources */,
 				07A22DAD2A326AB2004E1332 /* ScrumdingerApp.swift in Sources */,
+				070EE92A2A70ABA000355185 /* History.swift in Sources */,
+				070EE9202A609D8900355185 /* MeeitingFooterView.swift in Sources */,
 				070DFFFF2A3A6FE7004D63CD /* DetailEditView.swift in Sources */,
 				070D00032A422D86004D63CD /* ThemePicker.swift in Sources */,
 				070C1DBF2A3A49A600B1CD30 /* DailyScrum.swift in Sources */,
@@ -411,9 +419,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -471,9 +481,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -500,6 +512,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
 				DEVELOPMENT_TEAM = RNB3VSD9P4;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -531,6 +544,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
 				DEVELOPMENT_TEAM = RNB3VSD9P4;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -560,6 +574,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RNB3VSD9P4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -579,6 +594,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RNB3VSD9P4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -597,6 +613,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RNB3VSD9P4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -614,6 +631,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RNB3VSD9P4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;

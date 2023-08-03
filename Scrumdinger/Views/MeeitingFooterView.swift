@@ -1,5 +1,3 @@
-//
-//  MeetingFooterView.swift
 //  Scrumdinger
 //
 //  Created by Agata Porwit on 6/20/23.
@@ -49,4 +47,3 @@ struct MeetingFooterView_Previews: PreviewProvider {
             .previewLayout(.sizeThatFits)
     }
 }
-
